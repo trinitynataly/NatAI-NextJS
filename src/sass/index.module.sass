@@ -5,3 +5,75 @@
         background-repeat: no-repeat
         background-position: center
         height: 100vh
+
+    .aboutPage
+        background-image: url('../../public/assets/about_background.jpg')
+        background-size: cover
+        background-repeat: no-repeat
+        background-position: center
+        height: 100vh
+
+    .projectPage
+        background-image: url('../../public/assets/projects_background.jpg')
+        background-size: cover
+        background-repeat: no-repeat
+        background-position: center
+        height: 100vh       
+
+    .banner
+        position: relative
+        background-size: cover
+        background-position: center
+        height: 100vh
+        display: flex
+        align-items: center
+        justify-content: center
+
+    .bannerText
+        position: absolute
+        bottom: 310px
+        width: 100%
+        color: white
+        max-width: 1050px
+        text-align: center
+        font-size: 34px
+        padding: 0 70px 10px
+        font-family: 'Roboto', sans-serif
+        font-weight: 300
+        font-style: italic
+        // Media query for tablets
+        @media (min-width: 768px) and (max-width: 1024px)
+            font-size: 26px // Example size for tablets
+            padding: 0 40px
+            bottom: 250px
+        @media (max-width: 767px)
+            font-size: 18px
+            padding: 0 20px
+            bottom: 200px
+
+    .contentBlock
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        text-align: center
+        margin-top: -80px
+
+    .headline
+        font-size: 50px
+        color: #718ec4
+        font-family: 'Roboto', sans-serif
+        font-weight: 300
+
+    .photoContainer
+        margin: 1em 0
+
+    .textContent
+        color: #1e1e1e
+        max-width: 1000px
+        font-family: 'Roboto', sans-serif
+        font-weight: 300
+        text-align: center
+        font-size: 24px
+
+    
